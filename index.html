@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#520e1a">
+<meta name="format-detection" content="telephone=no">
+<title>读懂宪法 · 法治在身边</title>
+<style>
+:root{--red:#a7282e;--deep:#520e1a;--night:#230a10;--gold:#e1bd78;--white:#fff4dd;--text:#eeddd3;--muted:#cfaaa3;--serif:"Songti SC","STSong","Noto Serif CJK SC","SimSun",serif;--sans:"PingFang SC","Microsoft YaHei",sans-serif}
+*{box-sizing:border-box}html,body{margin:0;height:100%;background:#19080d;color:var(--white);font-family:var(--sans);-webkit-font-smoothing:antialiased}button{font:inherit}button,a{-webkit-tap-highlight-color:transparent}button:focus-visible,a:focus-visible{outline:2px solid var(--gold);outline-offset:5px}::selection{background:#e1bd78;color:var(--deep)}
+.app{position:relative;max-width:480px;height:100%;height:100svh;margin:auto;box-shadow:0 0 100px #0006;isolation:isolate;background:var(--deep)}
+.story{height:100%;overflow-y:auto;overflow-x:hidden;scroll-snap-type:y proximity;overscroll-behavior-y:contain;scrollbar-width:none}.story::-webkit-scrollbar{display:none}
+.page{position:relative;min-height:100%;scroll-snap-align:start;isolation:isolate;display:flex;flex-direction:column;justify-content:flex-end;padding:0 30px max(38px,calc(env(safe-area-inset-bottom) + 28px));background:linear-gradient(145deg,#6e1722,#390b15 86%)}
+.visual{position:absolute;inset:0 0 auto;height:42%;z-index:-2;overflow:hidden}.visual img{display:block;width:100%;height:100%;object-fit:cover;object-position:center 42%}.visual::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,#230a1026,transparent 45%,#63142088 76%,#57101c 100%)}
+.page::after{content:"";position:absolute;inset:auto 30px 23px;height:1px;background:linear-gradient(90deg,#e1bd7860,transparent);pointer-events:none}
+.content{padding-top:25px;margin-top:clamp(210px,34svh,350px)}.chapter{display:flex;align-items:center;gap:10px;margin:0 0 18px;color:var(--gold);font-size:12px;letter-spacing:.18em}.chapter::before{content:"";height:15px;width:3px;background:var(--gold);flex-shrink:0}
+h1,h2,p,blockquote{margin:0}h2{font:700 clamp(29px,8vw,38px)/1.4 var(--serif);letter-spacing:.06em;color:var(--white);margin-bottom:20px;text-wrap:balance}.body{font-size:14px;line-height:1.95;letter-spacing:.025em;color:var(--text)}.body+p{margin-top:12px}.lead{font:400 17px/1.85 var(--serif);letter-spacing:.035em;color:var(--white)}.gold{color:var(--gold)}
+.cover{padding:76px 32px max(50px,calc(env(safe-area-inset-bottom) + 36px));justify-content:space-between;background:#4d0c17;overflow:hidden}.cover-photo{position:absolute;inset:0;z-index:-3}.cover-photo img{width:100%;height:100%;object-fit:cover;object-position:65% 50%;display:block}.cover::before{content:"";position:absolute;inset:0;z-index:-1;background:linear-gradient(180deg,#510b19ed 0%,#661423a8 23%,#48111c12 53%,#330b15a6 77%,#2b0914fa 100%),linear-gradient(90deg,#3b0b1670,transparent 75%)}.cover::after{inset:26px 24px;border:1px solid #e1bd7840;background:none;height:auto;z-index:-1}
+.cover-top{font-size:11px;letter-spacing:.24em;color:#f3d8a9;display:flex;align-items:center;gap:12px}.cover-top::before{content:"";width:23px;height:1px;background:var(--gold)}.cover-title{margin-top:32px;font:700 clamp(62px,18vw,82px)/1.18 var(--serif);letter-spacing:.12em;text-shadow:0 4px 28px #3d0a1560}.cover-title span{display:block}.cover-title span:last-child{color:#f3d89e}.cover-line{width:34px;height:2px;background:var(--gold);margin:24px 0 13px}.cover-caption{font:400 17px/1.8 var(--serif);letter-spacing:.25em;color:#ffedce}.cover-foot{position:relative}.cover-foot .large{font:700 25px/1.6 var(--serif);letter-spacing:.14em}.cover-foot .small{font-size:11px;letter-spacing:.2em;margin-top:9px;color:#e4cbb9}
+.opening{background:linear-gradient(160deg,#741b26,#480d1a)}.opening .visual{height:46%}.opening .visual img{object-position:50% 45%}.opening .visual::after{background:linear-gradient(180deg,#4e0e1814,transparent 40%,#68162388 76%,#661422 100%)}.opening .content{margin-top:40svh;padding-top:10px}.opening h2{font-size:clamp(25px,6.9vw,32px);line-height:1.65}.opening .lead{margin-bottom:16px;font-size:16px}
+.intro .visual{height:43%}.intro .visual img{object-position:50% 37%}.intro .content{margin-top:36svh}.intro h2{font-size:32px}.intro-copy{border-top:1px solid #e1bd784d;padding-top:19px}.intro-copy .body{margin-top:15px}.intro .lead{font-size:22px;line-height:1.7;color:var(--gold)}
+.video-page{justify-content:center;gap:0;background:radial-gradient(ellipse at 80% 18%,#8c242c,transparent 65%),linear-gradient(150deg,#57101b,#250a12);padding-top:70px}.video-page .content{margin:0;padding:0}.video-page h2{font-size:44px;margin-bottom:14px}.video-frame{margin:28px -12px 0;padding:7px;border:1px solid #e1bd7855;box-shadow:0 20px 45px #19050b66;background:#230a10}.video-wrap{position:relative;aspect-ratio:16/9;background:#17080b}.video-wrap video{display:block;width:100%;height:100%;object-fit:contain}.video-wrap button{position:absolute;inset:0;border:0;color:var(--white);display:grid;place-items:center;background:linear-gradient(180deg,#280b1420,#280b1480);cursor:pointer}.video-wrap button[hidden]{display:none}.play-icon{width:58px;height:58px;display:grid;place-items:center;border:1px solid var(--gold);border-radius:50%;background:#430c1cb0}.play-icon::after{content:"";border-left:14px solid #f3d89e;border-top:9px solid transparent;border-bottom:9px solid transparent;margin-left:5px}.video-note{font-size:11px;line-height:1.8;letter-spacing:.1em;color:var(--muted);margin-top:16px}
+.case{background:linear-gradient(150deg,#731a25,#410c18)}.case .visual{height:32%}.case .visual img{object-position:center}.case .content{margin-top:25svh}.case h2{font-size:38px;margin-bottom:8px}.case-sub{font-size:12px;color:var(--gold);letter-spacing:.1em;margin-bottom:20px}.case .body{font-size:13px;line-height:1.9}.law-quote{position:relative;margin:18px 0;padding:17px 20px;background:#e1bd7810;border-left:2px solid var(--gold)}.law-quote small{display:block;font-size:11px;color:var(--gold);letter-spacing:.1em;margin-bottom:9px}.law-quote p{font:500 19px/1.8 var(--serif);letter-spacing:.05em}.case-footnote{margin-top:12px;font-size:10px;line-height:1.75;color:#d8b5ad}.case-footnote a{color:inherit;text-underline-offset:3px}
+.values .visual{height:31%}.values .visual img{object-position:50% 55%}.values .content{margin-top:24svh}.values h2{font-size:31px;margin-bottom:14px;line-height:1.4}.values-intro{font-size:12px;line-height:1.85;color:var(--text);margin-bottom:12px}.principles{display:grid;grid-template-columns:1fr 1fr;gap:0 18px}.principle{padding:14px 0 12px;border-top:1px solid #e1bd7840}.principle h3{margin:0 0 8px;font:700 16px/1.55 var(--serif);color:var(--gold)}.principle p{font-size:11.5px;line-height:1.85;color:var(--text)}
+.responsibility .visual{height:42%}.responsibility .visual img{object-position:center 44%}.responsibility .content{margin-top:35svh}.responsibility h2{font-size:36px;line-height:1.45}.responsibility .body{margin-top:17px}.responsibility .callout{border-top:1px solid #e1bd7860;border-bottom:1px solid #e1bd7830;padding:16px 0;color:var(--gold);font:500 20px/1.75 var(--serif);letter-spacing:.05em}
+.ending{justify-content:space-between;padding-top:80px;text-align:center;overflow:hidden;background:#4b0e19}.ending .visual{height:100%;inset:0}.ending .visual img{object-position:53% center}.ending .visual::after{background:linear-gradient(180deg,#440c17e8,#5c172171 40%,#270910a6 68%,#270910fc)}.ending .chapter{justify-content:center}.ending .chapter::before{display:none}.ending h2{font-size:clamp(42px,12vw,56px);line-height:1.45;letter-spacing:.13em;text-shadow:0 5px 25px #390a17}.ending blockquote{font:400 14px/2.2 var(--serif);letter-spacing:.025em;margin-bottom:24px}.ending .end-seal{font:500 15px/1.9 var(--serif);color:var(--gold);letter-spacing:.1em}.ending .end-line{width:28px;height:1px;background:var(--gold);margin:0 auto 20px}.ending .body{font-size:12px;line-height:1.9;margin-bottom:18px}
+.music{position:absolute;right:15px;top:max(14px,calc(env(safe-area-inset-top) + 10px));z-index:10;width:40px;height:40px;border:1px solid #e1bd7870;border-radius:50%;background:#480e1bbd;color:var(--gold);backdrop-filter:blur(8px);display:flex;align-items:center;justify-content:center;gap:3px;cursor:pointer}.music i{display:block;width:2px;height:11px;background:currentColor;border-radius:1px}.music i:nth-child(2){height:19px}.music i:nth-child(3){height:14px}.music[aria-pressed="false"]{color:#dbb9aa}.music[aria-pressed="false"]::after{content:"";position:absolute;left:10px;top:19px;width:20px;height:1px;background:currentColor;transform:rotate(-45deg)}
+/* Text entrances: character reveal, ink wipe, focus and a restrained gold highlight. */
+.js .reveal{opacity:0}
+.js .reveal.motion-in{animation:text-rise .85s cubic-bezier(.16,.8,.25,1) var(--enter-delay,0ms) both}
+.js [data-motion="wipe"].motion-in{animation-name:ink-wipe;animation-duration:1.05s}
+.js [data-motion="focus"].motion-in{animation-name:text-focus;animation-duration:1.1s}
+.js [data-motion="side"].motion-in{animation-name:text-side}
+.js [data-motion="quote"].motion-in{animation-name:quote-open;animation-duration:1s}
+.js [data-motion="line"].motion-in{animation-name:line-draw;transform-origin:left}
+.js .letter-reveal.motion-in{animation:none;opacity:1}
+.glyph{display:inline-block;font-style:normal}
+.js .letter-reveal .glyph{opacity:0}
+.js .letter-reveal.motion-in .glyph{animation:letter-rise .95s cubic-bezier(.16,.8,.25,1) calc(var(--enter-delay,0ms) + var(--glyph-index)*65ms) both}
+.js .ending .letter-reveal.motion-in .glyph{animation-name:letter-glow;animation-duration:1.2s}
+.law-quote::after{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,var(--gold),transparent);transform:scaleX(0);transform-origin:left}
+.js .law-quote.motion-in::after{animation:line-draw 1.1s ease calc(var(--enter-delay,0ms) + 180ms) both}
+@keyframes text-rise{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:none}}
+@keyframes ink-wipe{from{opacity:0;clip-path:inset(0 100% 0 0);transform:translateX(-10px)}to{opacity:1;clip-path:inset(0);transform:none}}
+@keyframes text-focus{from{opacity:0;filter:blur(7px);transform:translateY(10px) scale(1.025)}to{opacity:1;filter:blur(0);transform:none}}
+@keyframes text-side{from{opacity:0;transform:translateX(28px)}to{opacity:1;transform:none}}
+@keyframes quote-open{from{opacity:0;clip-path:inset(0 0 100% 0);transform:translateY(10px)}to{opacity:1;clip-path:inset(0);transform:none}}
+@keyframes line-draw{from{opacity:0;transform:scaleX(0)}to{opacity:1;transform:scaleX(1)}}
+@keyframes letter-rise{0%{opacity:0;transform:translateY(30px) rotate(4deg);filter:blur(6px)}65%{opacity:1;filter:blur(0);text-shadow:0 0 18px #e1bd7870}100%{opacity:1;transform:none;filter:blur(0);text-shadow:0 0 0 transparent}}
+@keyframes letter-glow{0%{opacity:0;transform:translateY(22px) scale(.93);filter:blur(5px)}60%{opacity:1;filter:blur(0);text-shadow:0 0 24px #f3d89e90}100%{opacity:1;transform:none;filter:blur(0);text-shadow:0 0 0 transparent}}
+
+@media(min-width:700px){body{background:radial-gradient(ellipse at 50% 25%,#5b1b26,#19080d 65%)}.app{border-left:1px solid #e1bd7825;border-right:1px solid #e1bd7825}}
+@media(max-width:359px){.page{padding-left:24px;padding-right:24px}.cover{padding-left:30px;padding-right:30px}.content{margin-top:30svh}.case .content,.values .content{margin-top:22svh}.principles{gap:0 14px}.principle h3{font-size:15px}.principle p{font-size:11px}.ending blockquote{font-size:12px}.intro h2{font-size:28px}.responsibility h2{font-size:31px}}
+@media(max-height:700px){.page{padding-bottom:30px}.content{margin-top:30svh}.chapter{margin-bottom:12px}.opening .content{margin-top:34svh}.intro .content{margin-top:31svh}.case .content,.values .content{margin-top:24svh}.responsibility .content{margin-top:31svh}.cover{padding-top:64px;padding-bottom:40px}.cover-title{margin-top:22px;font-size:64px}.cover-caption{font-size:15px}.cover-line{margin-top:18px}.ending{padding-top:65px}.ending h2{font-size:44px}.ending blockquote{margin-bottom:16px}}
+@media(prefers-reduced-motion:reduce){.js .reveal,.js .letter-reveal .glyph{opacity:1!important;transform:none!important;filter:none!important;clip-path:none!important;animation:none!important}.law-quote::after{animation:none!important;transform:scaleX(1)}.story{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<div class="app">
+<button class="music" id="music" type="button" aria-label="播放背景音乐" aria-pressed="false" title="播放背景音乐"><i></i><i></i><i></i></button>
+<audio id="bgm" loop preload="none" src="assets/bgm_cinematic_documentary_piano.mp3"></audio>
+<main class="story" id="story" aria-label="读懂宪法，八屏主题故事" tabindex="0">
+<section class="page cover" aria-labelledby="coverTitle">
+<div class="cover-photo"><img src="assets/08_国旗与广场晨光.jpg" alt="晨光中，五星红旗在广场上空飘扬" fetchpriority="high" decoding="async"></div>
+<div><p class="cover-top reveal">国家根本法 · 法治基石</p><h1 class="cover-title reveal" id="coverTitle"><span>读懂</span><span>宪法</span></h1><div class="cover-line reveal"></div><p class="cover-caption reveal">让法治，走进生活</p></div>
+<div class="cover-foot reveal"><p class="large">法治在身边</p><p class="small">尊法 · 学法 · 守法 · 用法</p></div>
+</section>
+<section class="page opening" aria-labelledby="openingTitle">
+<div class="visual"><img src="assets/07_山河城市与红旗.jpg" alt="红旗、长城与城市组成的山河画面" loading="lazy" decoding="async"></div>
+<div class="content"><p class="chapter reveal">开篇</p><h2 class="reveal" id="openingTitle">法治，是文明进步的标志<br>宪法，是法治体系的基石</h2><p class="lead reveal">自近代以来，<br>中华民族历经风雨求索。</p><p class="body reveal">在中国共产党的领导下，人民当家作主的崭新国家以宪法的形式，将来之不易的发展成果、制度优势与人民权利永久确立下来。</p></div>
+</section>
+<section class="page intro" aria-labelledby="introTitle">
+<div class="visual"><img src="assets/10_国徽建筑与白鸽.jpg" alt="庄严建筑上的国徽与飞翔的白鸽" loading="lazy" decoding="async"></div>
+<div class="content"><p class="chapter reveal">壹 · 宪法是什么</p><h2 class="reveal" id="introTitle">治国安邦的总章程</h2><div class="intro-copy reveal"><p class="lead">国家的根本法<br>人民权利的保障</p><p class="body">宪法明确国家根本制度与根本任务，划定权力运行的边界，在整个法律体系中拥有最高的法律地位、最高的法律权威和最高的法律效力。</p><p class="body">它看似宏大庄严，却深深融入日常：人格尊严与人身自由、受教育与平等发展的权利。宪法守护国家长治久安，也守护每个普通人的光明与希望。</p></div></div>
+</section>
+<section class="page video-page" aria-labelledby="videoTitle"><div class="content"><p class="chapter reveal">贰 · 影像纪实</p><h2 class="reveal" id="videoTitle">走近宪法</h2><p class="body reveal">一帧影像，一段法治叙事。<br>感受宪法精神如何走进时代与生活。</p><div class="video-frame reveal"><div class="video-wrap"><video id="video" playsinline webkit-playsinline preload="none" controls poster="assets/video-poster.jpg" src="assets/8f7f066a0eaeaff82a055a2cfa6435b8.mp4" aria-label="宪法主题宣传视频"></video><button id="play" type="button" aria-label="播放宪法主题宣传视频"><span class="play-icon"></span></button></div></div><p class="video-note reveal">点击播放，观看主题影像</p></div></section>
+<section class="page case" aria-labelledby="caseTitle"><div class="visual"><img src="assets/03_法治主题学生与天平.jpg" alt="学生、天平与法律书籍的主题插画" loading="lazy" decoding="async"></div><div class="content"><p class="chapter reveal">叁 · 案例回望</p><h2 class="reveal" id="caseTitle">齐玉苓案</h2><p class="case-sub reveal">从一段求学经历，看见权利保护</p><p class="body reveal">1990年，山东滕州齐玉苓考过中专预选与委培分数线，却被陈晓琪父女冒名顶替入学并工作。齐玉苓起诉后，最高法当时的批复认定：以侵犯姓名权的手段，侵犯了宪法保护的公民受教育基本权利。</p><blockquote class="law-quote reveal"><small>宪法 · 第四十六条</small><p>中华人民共和国公民<br>有受教育的权利和义务。</p></blockquote><p class="body reveal">该案曾引发关于宪法权利保障与民事救济的广泛讨论，也让受教育权的保护受到更多关注。</p><p class="case-footnote reveal">历史注：该案相关批复已于2008年废止，本页用于历史案例介绍。<a href="https://news.sina.cn/sa/2008-12-31/detail-ikftssap3096445.d.html" target="_blank" rel="noopener noreferrer">查看背景资料</a></p></div></section>
+<section class="page values" aria-labelledby="valuesTitle"><div class="visual"><img src="assets/01_青年背影与红旗.jpg" alt="青年面向晨光与红旗的剪影" loading="lazy" decoding="async"></div><div class="content"><p class="chapter reveal">肆 · 法治的重要性</p><h2 class="reveal" id="valuesTitle">国无法不立<br>民无法不安</h2><p class="values-intro reveal">法治是治国理政的基本方式，也是文明社会的重要标志，是国家发展、社会运行与公民生活的坚实底座。</p><div class="principles reveal"><div class="principle"><h3>治理有章</h3><p>法治兴则国兴，法治强则国强。把权力关进制度的笼子，让国家事务在法治轨道上运行。</p></div><div class="principle"><h3>权利有保障</h3><p>法律面前人人平等。让弱有所依、权有所护，让每个人在公平的规则下追求幸福生活。</p></div><div class="principle"><h3>社会有秩序</h3><p>定分止争、化解矛盾、惩恶扬善，为经济社会持续健康发展提供坚实保障。</p></div><div class="principle"><h3>青年有担当</h3><p>我们既是法治的受益者，更应成为建设者，尊法学法守法用法，自觉践行法治精神。</p></div></div></div></section>
+<section class="page responsibility" aria-labelledby="responsibilityTitle"><div class="visual"><img src="assets/02_青年群像与城市高铁.jpg" alt="青年群像与城市、高铁的主题插画" loading="lazy" decoding="async"></div><div class="content"><p class="chapter reveal">伍 · 责任</p><h2 class="reveal" id="responsibilityTitle">宪法与我们<br>每一个人有关</h2><p class="callout reveal">宪法权威来源于人民<br>宪法实施依靠人民</p><p class="body reveal">宪法面前人人平等，任何公民、社会组织和国家机关都必须在宪法范围内活动，没有超越宪法的特权。</p><p class="body reveal">权利与义务相统一：享有人身、政治与社会权利的同时，须自觉履行维护国家统一、遵守法律、维护社会秩序的义务。宪法的生命力在于实施，权威也在于践行。</p></div></section>
+<section class="page ending" aria-labelledby="endingTitle"><div class="visual"><img src="assets/05_青年剪影与大红旗.jpg" alt="青年站在飘扬的红旗与金色光芒前" loading="lazy" decoding="async"></div><div><p class="chapter reveal">结语</p><h2 class="reveal" id="endingTitle">信仰宪法<br>守护未来</h2></div><div class="reveal"><blockquote>宪法的根基，在于人民发自内心的拥护；<br>宪法的伟力，在于人民出自真诚的信仰。</blockquote><p class="body">以青春之力护航法治征程<br>共同建设法治中国</p><div class="end-line"></div><p class="end-seal">法治兴则国兴 · 法治强则国强</p></div></section>
+</main></div>
+<script>
+(()=>{
+const story=document.querySelector('#story'),pages=[...document.querySelectorAll('.page')],bgm=document.querySelector('#bgm'),music=document.querySelector('#music'),video=document.querySelector('#video'),play=document.querySelector('#play');
+const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+let wantsMusic=false,videoActive=false,resumeAfterVisibility=false,musicRequest=0;
+bgm.volume=.24;
+function syncButton(){const audible=!bgm.paused&&!bgm.muted;music.setAttribute('aria-pressed',String(audible));music.setAttribute('aria-label',wantsMusic?'暂停背景音乐':'播放背景音乐');music.title=wantsMusic?'暂停背景音乐':'播放背景音乐';}
+async function startMusic(){const request=++musicRequest;if(!wantsMusic||videoActive||document.hidden)return;try{await bgm.play();if(request!==musicRequest||!wantsMusic||videoActive||document.hidden)bgm.pause();}catch(e){wantsMusic=false;}syncButton();}
+function stopMusic(){musicRequest++;bgm.pause();syncButton();}
+music.addEventListener('click',()=>{wantsMusic=!wantsMusic;if(wantsMusic)startMusic();else stopMusic();syncButton();});
+bgm.addEventListener('play',syncButton);bgm.addEventListener('pause',syncButton);bgm.addEventListener('error',()=>{wantsMusic=false;syncButton();music.title='背景音乐加载失败，请稍后重试';});
+play.addEventListener('click',async()=>{try{await video.play();}catch(e){play.hidden=false;}});
+video.addEventListener('play',()=>{videoActive=true;stopMusic();play.hidden=true;});
+function videoStopped(){videoActive=false;if(wantsMusic)startMusic();}
+video.addEventListener('pause',videoStopped);video.addEventListener('ended',()=>{play.hidden=false;videoStopped();});
+// Animate text as it enters the viewport, including long pages on small screens.
+const motionPreference=matchMedia('(prefers-reduced-motion: reduce)');
+let textObserver,pageObserver;
+function prepareTextMotion(){
+  ['.intro-copy','.principles','.cover-foot','.ending > div.reveal'].forEach(selector=>{
+    document.querySelectorAll(selector).forEach(group=>{
+      group.classList.remove('reveal');
+      [...group.children].forEach(child=>child.classList.add('reveal'));
+    });
+  });
+  document.querySelectorAll('.cover-title,.values h2,.ending h2').forEach(title=>{
+    title.classList.add('letter-reveal');
+    title.setAttribute('aria-label',title.innerText.replace(/\n/g,' ').trim());
+    let index=0;
+    const walker=document.createTreeWalker(title,NodeFilter.SHOW_TEXT);
+    const nodes=[];while(walker.nextNode())nodes.push(walker.currentNode);
+    nodes.forEach(node=>{
+      const fragment=document.createDocumentFragment();
+      for(const character of node.textContent){
+        if(/\s/.test(character)){fragment.appendChild(document.createTextNode(character));continue;}
+        const glyph=document.createElement('i');glyph.className='glyph';
+        glyph.style.setProperty('--glyph-index',index++);
+        glyph.setAttribute('aria-hidden','true');glyph.textContent=character;fragment.appendChild(glyph);
+      }
+      node.replaceWith(fragment);
+    });
+  });
+  pages.forEach(page=>{
+    [...page.querySelectorAll('.reveal')].forEach((el,index)=>{
+      let effect='rise';
+      if(el.matches('.chapter,.cover-top,.opening h2,.responsibility h2'))effect='wipe';
+      if(el.matches('.intro h2,.case h2'))effect='focus';
+      if(el.matches('.video-page h2'))effect='side';
+      if(el.matches('.law-quote,.callout'))effect='quote';
+      if(el.matches('.cover-line,.end-line'))effect='line';
+      el.dataset.motion=effect;
+      el.style.setProperty('--enter-delay',Math.min(index*75,240)+'ms');
+    });
+  });
+}
+function updateTextMotion(){
+  if(textObserver)textObserver.disconnect();
+  if(pageObserver)pageObserver.disconnect();
+  const targets=[...document.querySelectorAll('.reveal')];
+  // Leave the complete text visible when motion is reduced or observers are unavailable.
+  document.documentElement.classList.remove('js');
+  if(motionPreference.matches||!('IntersectionObserver' in window))return;
+  targets.forEach(el=>el.classList.remove('motion-in'));
+  document.documentElement.classList.add('js');
+  textObserver=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('motion-in');});
+  },{root:story,threshold:.12,rootMargin:'0px 0px -12px 0px'});
+  targets.forEach(el=>textObserver.observe(el));
+  // Replay only after a whole page has left the screen, avoiding flicker while reading.
+  pageObserver=new IntersectionObserver(entries=>{
+    entries.forEach(entry=>{
+      if(!entry.isIntersecting)entry.target.querySelectorAll('.motion-in').forEach(el=>el.classList.remove('motion-in'));
+    });
+  },{root:story,threshold:0,rootMargin:'100px 0px'});
+  pages.forEach(page=>pageObserver.observe(page));
+}
+prepareTextMotion();updateTextMotion();
+if(motionPreference.addEventListener)motionPreference.addEventListener('change',updateTextMotion);
+story.addEventListener('scroll',()=>{const r=pages[3].getBoundingClientRect(),s=story.getBoundingClientRect();if((r.bottom<=s.top||r.top>=s.bottom)&&!video.paused)video.pause();},{passive:true});
+story.addEventListener('keydown',e=>{if(e.target!==story)return;if(!['ArrowDown','ArrowUp','PageDown','PageUp','Home','End'].includes(e.key))return;e.preventDefault();const current=pages.reduce((best,p,i)=>Math.abs(p.offsetTop-story.scrollTop)<Math.abs(pages[best].offsetTop-story.scrollTop)?i:best,0);const i=e.key==='Home'?0:e.key==='End'?pages.length-1:Math.max(0,Math.min(pages.length-1,current+(['ArrowDown','PageDown'].includes(e.key)?1:-1)));story.scrollTo({top:pages[i].offsetTop,behavior:reduce?'auto':'smooth'});});
+document.addEventListener('visibilitychange',()=>{if(document.hidden){resumeAfterVisibility=wantsMusic;stopMusic();if(!video.paused)video.pause();}else if(resumeAfterVisibility&&wantsMusic)startMusic();});
+})();
+</script>
+</body></html>
